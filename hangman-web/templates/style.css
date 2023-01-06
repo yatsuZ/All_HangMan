@@ -1,0 +1,33 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #42a5df;
+    color: #000;
+  }
+  .sub{background-color:  #01962e;
+    width: 500px;
+    height: 33px;
+  }
+  div.container{position:absolute;
+                  left: 593px ;
+                top: 349px   ;
+                  }
+  .box {
+    width: 500px;
+    height: 50px;
+  }
+  h1 {
+    left: 791px; 
+    top: 300px;
+    font-size: 200px ;
+    text-align: center;
+
+  } 
+  
+ 
+              
+  h5 {
+    text-align: center;
+    font-size: 18px;
+    font-style: oblique;
+    color : red;
+  }

@@ -1,0 +1,167 @@
+body {
+    background-color: #0f172a;
+}
+
+
+.thehangman {
+    float: left;
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #0f172a;
+    color: #000;
+    box-sizing: border-box;
+    height: 100vh;
+
+}
+
+#score {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    font-size: 300%;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.score1 {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    font-size: 300%;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.score2 {
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    font-size: 300%;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.theshap{
+    float: right;
+    width: 50%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #0f172a;
+    color: rgb(54, 54, 54);
+    box-sizing: border-box;
+    height: 100vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+   font-size: 450%;
+    margin: auto;
+    padding: 10px;
+    justify-content: center;
+}
+
+h2 {
+    left: 20%;
+    top:75%;
+    margin-top: 10%;
+    font-size: 500%;
+    text-align: center;
+    color: #fff;
+}
+
+
+h5 {
+    text-align: center;
+    font-size: 18px;
+    font-style: oblique;
+    color: #f472b6;
+}
+
+ .snackbar {
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 30px;
+}
+
+#pos{
+    color: #fff;
+    size: 500%;
+    text-align: center;
+    
+    
+}
+.letter_choser {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    size: 100%;
+    width: 75%;
+    padding: 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    align-self: center;
+    width: 30%;
+    text-align: center;
+    color: rgb(247, 247, 247);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 7px;
+}
+
+.guess {
+    background-color: #4CAF50;
+
+}
+
+.test {
+    background-color: #d11a60;
+}
+
+.words {
+    background-color: #068cad;
+}
+
+.machin {
+    background-color: #000000;
+}
+
+.replay {
+    background-color: #0ea5e9;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+}
+
+.attempts {
+    color: rgb(243, 241, 241);
+}
+
